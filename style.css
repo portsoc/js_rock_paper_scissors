@@ -1,0 +1,33 @@
+button {
+  font-size: 5em;
+  margin: 1rem;
+  transform: rotate(-90deg) scale(1,-1);
+  box-shadow: -.5rem -.5rem 0.5rem darkgrey;
+  border-radius: 1rem;
+}
+
+#input button:focus {
+  transform: rotate(-90deg) scale(.9,-.9);
+  outline: none;
+}
+
+.hand {
+  height: 1em;
+  width: 1.5em;
+  font-size: 5em;
+  display: inline-block;
+  transform: rotate(-90deg);
+}
+
+#input,
+#comp {
+  display: inline-block;
+}
+
+#comp button:focus {
+  outline: none;
+}
+
+#input {
+  margin: 1rem;
+}
